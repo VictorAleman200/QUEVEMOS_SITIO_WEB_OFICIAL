@@ -1,39 +1,33 @@
 @font-face {
-    font-family: Attic;
-    src: url(../fonts/Attic.ttf);
+    font-family: Bebas-Neue;
+    src: url(../fonts/BebasNeue-Regular.ttf);
 }
 
 @font-face {
-    font-family: Nouveau;
-    src: url(../fonts/NouveauNostalgia.ttf);
-}
-
-@font-face {
-    font-family: Montserrat;
-    src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+    font-family: Share-Tech-Mono;
+    src: url(../fonts/ShareTechMono-Regular.ttf);
 }
 
 :root {
-    --verde_clarito: #D5EDE7;
-    --verde_oscuro: #657673;
-    --verde_medio: #869D97;
-    --verde_claro: #B3CCC4;
-    --amarrillo_claro: #D7CC8F;
-    --naranja_medio: #B49860;
-    --azul_oscurote: #214053;
-    --azul_verde: #84B0BB;
-    --crema: #F5F2E3;
+    --azul-oscuro: #050d1a;
+    --azul-medio: #1565c0;
+    --azul-brillante: #1e90ff;
+    --azul-bajo: #0d1e35;
+    --azul-leve: #7aaddd;
+    --texto: #e8f4ff;
+    --rojo: #e53935;
+    --verde: #00e676;
+    --amarillo: #ffef3a;
     --negro: #000000;
     --blanco: #ffffff;
     --gris: #919191;
-    --Attic: Attic;
-    --Nouveau: Nouveau;
-    --Montserrat: Montserrat;
+    --font-titulo: Bebas-Neue, Impact, sans-serif;
+    --font-lectura: Share-Tech-Mono, Consolas, monospace;
 }
 
 * {
     box-sizing: border-box;
-    font-family: var(--Montserrat);
+    font-family: var(--font-lectura);
     margin: 0;
 }
 

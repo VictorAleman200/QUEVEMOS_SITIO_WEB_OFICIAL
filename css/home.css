@@ -64,6 +64,10 @@ main {
 .btn-right {
     right: 10px;
 }
+.btn-left:hover, .btn-right:hover {
+    background-color: var(--azul-bajo);
+    color: var(--blanco);
+}
 
 .featured-banner {
     display: flex;
