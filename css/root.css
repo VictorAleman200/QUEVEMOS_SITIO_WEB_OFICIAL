@@ -10,19 +10,23 @@
 
 :root {
     --azul-oscuro: #050d1a;
-    --azul-medio: #1565c0;
+    --azul-oscuro-medio: #0a1628;
+    --azul-oscuro-bajo: #0d1e35;
     --azul-brillante: #1e90ff;
-    --azul-bajo: #0d1e35;
+    --azul-medio: #1565c0;
+    --azul-fuerte: #1a4a8a;
+    --naranja-fuerte: #ff6d00;
+    --naranja-suave: #ff8f00;
+    --texto-principal: #e8f4ff;
     --azul-leve: #7aaddd;
-    --texto: #e8f4ff;
     --rojo: #e53935;
     --verde: #00e676;
-    --amarillo: #ffef3a;
-    --negro: #000000;
-    --blanco: #ffffff;
-    --gris: #919191;
-    --font-titulo: Bebas-Neue, Impact, sans-serif;
-    --font-lectura: Share-Tech-Mono, Consolas, monospace;
+    --amarrillo: #ffef3a;
+    --font-titulo: Bebas-Neue;
+    --font-lectura: Share-Tech-Mono;
+    --gris: #b1b1b1d8;
+    --negro: #000;
+    --blanco: #fff;
 }
 
 * {
@@ -32,8 +36,5 @@
 }
 
 body {
-    background-image: url(../imgs/Fondo.jpeg);
-    background-size:contain;
-    background-position: center;
-
+    background-color: var(--texto);
 }

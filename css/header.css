@@ -9,8 +9,8 @@ header {
     align-items: center;
     width: 100%;
     height: 100px;
-    border: 1px solid #000000;
-    background-color: var(--verde_clarito);
+    border: 1px solid var(--azul-oscuro);
+    background-color: var(--azul-leve);
     padding: 30px;
     position: sticky;
     top: 0;
@@ -37,7 +37,7 @@ nav {
     width: 280px;
     height: 40px;
     margin: 0 20px 0 20px;
-    font-family: var(--Nouveau);
+    font-family: var(--font-titulo);
     text-decoration: none;
     font-size: 32px;
     border-radius: 10px;
@@ -47,7 +47,7 @@ nav {
 .seccion:hover {
     width: 280px;
     height: 60px;
-    background-color: var(--verde_oscuro);
+    background-color: var(--azul-oscuro-bajo);
     color: var(--blanco);
     
 }
@@ -55,7 +55,7 @@ nav {
 .active {
     width: 280px;
     height: 60px;
-    background-color: var(--verde_oscuro);
+    background-color: var(--azul-oscuro-bajo);
     color: var(--blanco);
 }
 
@@ -67,7 +67,7 @@ nav {
 }
 
 
-div a img {
+/*div a img {
     width: 60px;
     height: 100%;
 }
@@ -121,4 +121,4 @@ div a[title="cuenta"].active-icon {
 
 div a[title="shop"].active-icon {
     background-color: var(--verde_oscuro);
-}
+}*/
