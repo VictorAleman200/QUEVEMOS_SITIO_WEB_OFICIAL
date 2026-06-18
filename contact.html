@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Lirio Azul</title>
+    <link rel="icon" type="image/x-icon" href="imgs/logo.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/root.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <img src="imgs/logo.png" alt="Pixelito" class="logo">
+        <nav>
+            <a href="index.html" class="seccion" title="Inicio">Inicio</a>
+            <a href="shop.html" class="seccion" title="Tienda">Tienda</a>
+            <a href="contact.html" class="seccion active" title="Contacto">Contacto</a>
+        </nav>
+        <div>
+            <a href="perfil.html" title="cuenta">
+                <img src="imgs/user.png" alt="">
+            </a>
+            <a href="carrito.html" title="shop">
+                <img src="imgs/shop.png" alt="">
+            </a>
+        </div>
+    </header>
+
+    <div class="contact-banner">
+        <img src="imgs/Banners/Multimedia (13).jpg" alt="Interior de El Lirio Azul">
+        <div class="contact-banner-overlay">
+            <h1>El Lirio Azul</h1>
+        </div>
+    </div>
+
+    <!-- CUERPO -->
+    <div class="contact-body">
+
+        <!-- COLUMNA IZQUIERDA -->
+        <div>
+            <h2 class="contact-info-title">Contacto</h2>
+
+            <div class="info-list">
+                <div class="info-item">
+                    <i class="bi bi-geo-alt"></i>
+                    <div>
+                        <p class="info-label">Dirección</p>
+                        <p class="info-value">Avenida Eclipse 742, Colonia Nova Aurora,<br>Ciudad Juárez, MX</p>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <i class="bi bi-telephone"></i>
+                    <div>
+                        <p class="info-label">Teléfono</p>
+                        <p class="info-value"><a href="tel:6567891234">(656) 789-1234</a></p>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <i class="bi bi-envelope"></i>
+                    <div>
+                        <p class="info-label">Correo electrónico</p>
+                        <p class="info-value"><a href="mailto:hola@lirioazul.com">hola@lirioazul.com</a></p>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <i class="bi bi-clock"></i>
+                    <div>
+                        <p class="info-label">Horarios</p>
+                        <div class="hours-grid">
+                            <span class="hours-day">Lunes – Viernes</span>
+                            <span class="hours-time">9:00 am – 8:00 pm</span>
+                            <span class="hours-day">Sábados</span>
+                            <span class="hours-time">10:00 am – 7:00 pm</span>
+                            <span class="hours-day">Domingos</span>
+                            <span class="hours-closed">CERRADO</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1814.8890901583943!2d-53.26049330160519!3d-24.52775679999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94f24f0072db3fb3%3A0x837893d8cecc1c57!2sBolateria%20Requinte!5e0!3m2!1ses-419!2smx!4v1779737291291!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="map-placeholder">
+                    <span>🗺️</span>
+                    <p>Cafetería El Lirio Azul</p>
+                    <p style="margin-top:4px; font-size:12px;">Av. Eclipse 742, Nova Aurora</p>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="contact-form-wrap">
+            <h3 class="form-title">Envíanos un mensaje</h3>
+            <p class="form-subtitle">Responderemos a la brevedad posible.</p>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" placeholder="Tu nombre">
+                </div>
+                <div class="form-group">
+                    <label for="telefono">Teléfono</label>
+                    <input type="tel" id="telefono" placeholder="(656) 000-0000">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Correo electrónico</label>
+                <input type="email" id="email" placeholder="correo@ejemplo.com">
+            </div>
+
+            <div class="form-group">
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" placeholder="¿En qué podemos ayudarte?"></textarea>
+            </div>
+
+            <button class="form-submit" onclick="enviarFormulario()">Enviar mensaje</button>
+
+            <div class="toast" id="toast">
+                <span>✅</span>
+                <span>¡Mensaje enviado! Te contactaremos pronto.</span>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="footer-top">
+            <div class="footer-brand">
+                <img src="imgs/logo.png" class="logo-placeholder"></img>
+                <span>El Lirio Azul: Arte, elegancia y sabor en cada taza.</span>
+                <div class="footer-socials">
+                    <i class="bi bi-instagram"></i>
+                    <i class="bi bi-facebook"></i>
+                    <i class="bi bi-tiktok"></i>
+                    <i class="bi bi-twitter-x"></i>
+                </div>
+
+            </div>
+            <div class="footer-map">
+                <div>
+                    <i class="bi bi-geo-alt-fill"></i>
+                    <h4>Avenida Eclipse 742, Colonia Nova Aurora, Ciudad Luminaria, MX</h4>
+                </div>
+                <div>
+                    <i class="bi bi-telephone"></i>
+                    <h4>+52 656 180 2032</h4>
+                </div>
+                <div>
+                    <i class="bi bi-envelope"></i>
+                    <h4>lirioazul@gmail.com</h4>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>Todos los derechos reservados. Freepik (iconos)</span>
+            <div class="footer-bottom-links">
+                <a href="#" class="aviso">Aviso de privacidad</a>
+                <a href="#">Términos de uso</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function enviarFormulario() {
+            const nombre = document.getElementById('nombre').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const mensaje = document.getElementById('mensaje').value.trim();
+
+            if (!nombre || !email || !mensaje) {
+                alert('Por favor completa los campos obligatorios: nombre, correo y mensaje.');
+                return;
+            }
+
+            // Aquí conectarías con tu backend o servicio de email
+            document.getElementById('toast').classList.add('show');
+
+            // Limpiar campos
+            document.getElementById('nombre').value = '';
+            document.getElementById('telefono').value = '';
+            document.getElementById('email').value = '';
+            document.getElementById('mensaje').value = '';
+
+            // Ocultar el toast después de 4 segundos
+            setTimeout(() => {
+                document.getElementById('toast').classList.remove('show');
+            }, 4000);
+        }
+    </script>
+</body>
+
+</html>

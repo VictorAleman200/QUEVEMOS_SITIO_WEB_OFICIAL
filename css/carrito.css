@@ -1,0 +1,219 @@
+header > a:nth-child(2):hover {
+    background-color: var(--azul_oscuro);
+    color: var(--blanco);
+}
+
+header > a:nth-child(3):hover {
+    background-color: var(--azul_oscuro);
+    color: var(--blanco);
+}
+
+header > a:nth-child(4):hover {
+    background-color: var(--azul_oscuro);
+    color: var(--blanco);
+}
+
+main {
+    width: 100%;
+    height: auto;
+}
+
+.page {
+    width: 100%;
+    padding: 40px;
+    display: inline-block;
+}
+
+.section-title {
+    font-size: 28px;
+    color: var(--negro);
+    font-family: var(--Nouveau);
+    font-weight: 500;
+}
+
+.cart-layout {
+    display: flex;
+    align-items: start;
+}
+
+.cart-table {
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--white);
+    border-radius: var(--radius);
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    border-radius: 10px;
+}
+
+.cart-table thead {
+    background: var(--verde_medio);
+    color: var(--negro);
+}
+
+.cart-table thead th {
+    padding: 15px;
+    font-family: var(--Nouveau);
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+.cart-table tbody tr {
+    background: var(--crema);
+    border-bottom: 2px solid var(--gris);
+    transition: 0.15s;
+}
+
+.cart-table tbody tr:last-child { 
+    border-bottom: none; 
+}
+
+.cart-table tbody tr:hover { 
+    background: var(--naranja_medio); 
+}
+
+.cart-table td {
+    padding: 15px 18px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.cart-item-img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.item-name { 
+    font-weight: 500; 
+    font-size: 15px;
+    color: var(--azul_oscurote);
+}
+
+.item-linea { 
+    font-size: 12px; 
+    color: var(--azul_verde); 
+}
+
+.control {
+    display: flex;
+    align-items: center;
+}
+
+.control button {
+    width: 26px;
+    height: 26px;
+    border: none;
+    border-radius: 4px;
+    background: var(--verde_medio);
+    color: var(--blanco);
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 15px;
+    transition: 0.15s;
+}
+
+.control button:hover { 
+    background: var(--verde_oscuro); 
+}
+
+.control span { 
+    font-weight: 700; 
+    min-width: 20px; 
+    text-align: center; 
+}
+
+.remove-btn {
+    background: none;
+    border: none;
+    font-size: 32px;
+    cursor: pointer;
+    color: var(--gris);
+    transition: 0.3s;
+    width: 60px;
+    height: 60px;
+}
+
+.remove-btn:hover { 
+    color: var(--blanco); 
+    background-color: var(--verde_oscuro);
+    border-radius: 4px;
+}
+
+.resumen-card {
+    display: inline-block;
+    height: auto;
+    width: 400px;
+    margin-left: 40px;
+    margin-top: 20px;
+    background: var(--blanco);
+    border-radius: 20px;
+    box-shadow: 0 2px 12px var(--negro);
+    overflow: hidden;
+}
+
+.resumen-card h3 {
+    text-align: center;
+    background: var(--verde_medio);
+    color: var(--blanco);
+    font-family: var(--Nouveau);
+    font-size: 18px;
+    padding: 15px 20px;
+    letter-spacing: 0.5px;
+}
+
+.resumen-body { 
+    width: 100%;
+    display: inline-block;
+    padding: 20px; 
+}
+
+.resumen-row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-bottom: 12px;
+    color: var(--negro);
+}
+
+.resumen-total {
+    display: flex;
+    justify-content: space-between;
+    
+    color: var(--negro);
+    border-top: 2px solid var(--gris);
+    padding-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.resumen-total span {
+    font-family: var(--Attic);
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.btn {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    padding: 15px;
+    font-family: var(--Nouveau);
+    font-size: 18px;
+    font-weight: 900;
+    letter-spacing: 0.5px;
+    border-radius: 30px;
+    color: var(--blanco);
+    background-color: var(--amarrillo_claro);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 0 2px 12px var(--verde_claro);
+}

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Lirio Azul</title>
+    <link rel="icon" type="image/x-icon" href="imgs/logo.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/root.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/carrito.css">
+
+</head>
+
+<body>
+    <header>
+        <img src="imgs/logo.png" alt="Pixelito" class="logo">
+        <nav>
+            <a href="index.html" class="seccion" title="Inicio">Inicio</a>
+            <a href="shop.html" class="seccion" title="Tienda">Tienda</a>
+            <a href="contact.html" class="seccion" title="Contacto">Contacto</a>
+        </nav>
+        <div>
+            <a href="perfil.html" title="cuenta">
+                <img src="imgs/user.png" alt="">
+            </a>
+            <a href="carrito.html" title="shop" class="active-icon">
+                <img src="imgs/shop.png" alt="">
+            </a>
+        </div>
+    </header>
+    <main>
+        <div class="page">
+            <h1 class="section-title">Carrito</h1>
+
+            <div class="cart-layout">
+                <table class="cart-table">
+                    <thead>
+                        <tr>
+                            <th colspan="2">Producto</th>
+                            <th>Cantidad</th>
+                            <th>Precio</th>
+                            <th>Eliminar</th>
+                        </tr>
+                    </thead>
+                    <tbody id="cart-body">
+                        <tr>
+                            <td>
+                                <img class="cart-item-img" src="imgs/corazon_hamma.jpeg" alt="Llavero Pixel">
+                            </td>
+                            <td>
+                                <div class="item-name">Llavero Pixel Corazon</div>
+                                <div class="item-linea">Sku-01</div>
+                            </td>
+                            <td>
+                                <div class="control">
+                                    <button onclick="">−</button>
+                                    <span>1</span>
+                                    <button onclick="">+</button>
+                                </div>
+                            </td>
+                            <td>$50.00</td>
+                            <td><button class="remove-btn" onclick="">✕</button></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img class="cart-item-img" src="imgs/minecraft.jpeg" alt="Llavero Pixel">
+                            </td>
+                            <td>
+                                <div class="item-name">Llavero Pixel Steve</div>
+                                <div class="item-linea">Sku-01</div>
+                            </td>
+                            <td>
+                                <div class="control">
+                                    <button onclick="">−</button>
+                                    <span>1</span>
+                                    <button onclick="">+</button>
+                                </div>
+                            </td>
+                            <td>$70.00</td>
+                            <td><button class="remove-btn" onclick="">✕</button></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img class="cart-item-img" src="imgs/batman_hamma.jpeg" alt="Llavero Pixel">
+                            </td>
+                            <td>
+                                <div class="item-name">Llavero Pixel Batman</div>
+                                <div class="item-linea">Sku-01</div>
+                            </td>
+                            <td>
+                                <div class="control">
+                                    <button onclick="">−</button>
+                                    <span>1</span>
+                                    <button onclick="">+</button>
+                                </div>
+                            </td>
+                            <td>$90.00</td>
+                            <td><button class="remove-btn" onclick="">✕</button></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img class="cart-item-img" src="imgs/mario_hamma.jpeg" alt="Llavero Pixel">
+                            </td>
+                            <td>
+                                <div class="item-name">Llavero Pixel Mario</div>
+                                <div class="item-linea">Sku-02</div>
+                            </td>
+                            <td>
+                                <div class="control">
+                                    <button onclick="">−</button>
+                                    <span>1</span>
+                                    <button onclick="">+</button>
+                                </div>
+                            </td>
+                            <td>$80.00</td>
+                            <td><button class="remove-btn" onclick="">✕</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="resumen-card">
+                    <h3>Resumen</h3>
+                    <div class="resumen-body">
+                        <div class="resumen-row">
+                            <span>Subtotal</span>
+                            <span id="subtotal">$290.00</span>
+                        </div>
+                        <div class="resumen-row">
+                            <span>Envío</span>
+                            <span>$20.00</span>
+                        </div>
+                        <div class="resumen-row">
+                            <span>Descuento</span>
+                            <span>—</span>
+                        </div>
+                        <div class="resumen-total">
+                            <span>Total</span>
+                            <span id="total">$310.00</span>
+                        </div>
+                        <a href="#" class="btn">Pagar</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-top">
+            <div class="footer-brand">
+                <img src="imgs/logo.png" class="logo-placeholder"></img>
+                <span>El Lirio Azul: Arte, elegancia y sabor en cada taza.</span>
+                <div class="footer-socials">
+                    <i class="bi bi-instagram"></i>
+                    <i class="bi bi-facebook"></i>
+                    <i class="bi bi-tiktok"></i>
+                    <i class="bi bi-twitter-x"></i>
+                </div>
+
+            </div>
+            <div class="footer-map">
+                <div>
+                    <i class="bi bi-geo-alt-fill"></i>
+                    <h4>Avenida Eclipse 742, Colonia Nova Aurora, Ciudad Luminaria, MX</h4>
+                </div>
+                <div>
+                    <i class="bi bi-telephone"></i>
+                    <h4>+52 656 180 2032</h4>
+                </div>
+                <div>
+                    <i class="bi bi-envelope"></i>
+                    <h4>lirioazul@gmail.com</h4>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>Todos los derechos reservados.</span>
+            <div class="footer-bottom-links">
+                <a href="#" class="aviso">Aviso de privacidad</a>
+                <a href="#">Términos de uso</a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

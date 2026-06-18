@@ -1,0 +1,45 @@
+@font-face {
+    font-family: Attic;
+    src: url(../fonts/Attic.ttf);
+}
+
+@font-face {
+    font-family: Nouveau;
+    src: url(../fonts/NouveauNostalgia.ttf);
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+:root {
+    --verde_clarito: #D5EDE7;
+    --verde_oscuro: #657673;
+    --verde_medio: #869D97;
+    --verde_claro: #B3CCC4;
+    --amarrillo_claro: #D7CC8F;
+    --naranja_medio: #B49860;
+    --azul_oscurote: #214053;
+    --azul_verde: #84B0BB;
+    --crema: #F5F2E3;
+    --negro: #000000;
+    --blanco: #ffffff;
+    --gris: #919191;
+    --Attic: Attic;
+    --Nouveau: Nouveau;
+    --Montserrat: Montserrat;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: var(--Montserrat);
+    margin: 0;
+}
+
+body {
+    background-image: url(../imgs/Fondo.jpeg);
+    background-size:contain;
+    background-position: center;
+
+}

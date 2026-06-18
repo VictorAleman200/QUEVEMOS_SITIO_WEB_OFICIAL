@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+
+footer {
+    background: var(--verde_oscuro);
+    color: var(--blanco);
+    padding: 2rem 2.5rem 1rem;
+    font-size: 12px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.footer-brand {
+    margin: auto 0 0 0;
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer-brand img {
+    width: 46px;
+    border-radius: 50%;
+    margin: 0 0 10px 0;
+}
+
+.footer-brand span {
+    font-family: var(--Nouveau);
+    font-size: 24px;
+    color: var(--blanco);
+}
+
+.footer-socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-brand .footer-socials i {
+    width: 50px;
+    height: 50px;
+    font-size: 48px;
+    margin: 0 10px 0 10px;
+    color: var(--negro);
+}
+
+.footer-map {
+    width: 240px;
+    margin: auto 0 0 0;
+    display: inline-block;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-map h4 {
+    display: inline-block;
+    width: 180px;
+    font-family: var(--Attic);
+    font-size: 16px;
+    color: var(--blanco);
+    letter-spacing: 1px;
+    /* Esta propiedad ajusta el espaciado horizontal entre los caracteres del texto.  */
+}
+
+.footer-map div {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--gris);
+    margin-bottom: 10px;
+    transition: color 0.2s;
+}
+
+.footer-map div:last-child {
+    margin-bottom: 0px;
+}
+
+.footer-map div i {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    margin: auto 10px auto 10px;
+    color: var(--negro);
+}
+
+.footer-bottom {
+    border-top: 1px solid var(--negro);
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10px;
+    color: var(--blanco);
+}
+
+.footer-bottom span {
+    font-family: var(--Attic);
+    font-size: 14px;
+}
+
+.footer-bottom-links a {
+    font-family: var(--Attic);
+    font-size: 14px;
+    color: var(--gris_oscuro);
+    transition: 0.2s;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+
+.footer-bottom-links a.aviso {
+    margin-right: 30px;
+}
+
+.footer-bottom-links a:hover {
+    color: var(--blanco);
+}
