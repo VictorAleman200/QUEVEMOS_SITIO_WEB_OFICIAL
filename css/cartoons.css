@@ -23,15 +23,19 @@ body {
     justify-content: center;
 
 }
+
 .menu-top a:nth-child(1) {
     margin-right: 16px;
 }
+
 .menu-top a:nth-child(2) {
     margin-right: 16px;
 }
+
 .menu-top a:nth-child(3) {
     margin-right: 16px;
 }
+
 .menu-top a {
     display: flex;
     align-items: center;
@@ -44,9 +48,11 @@ body {
     font-size: 48px;
     color: var(--blanco);
 }
+
 .menu-top a:hover {
     background-color: var(--azul-medio);
 }
+
 .menu-top a.active {
     background-color: var(--azul-medio);
 }
@@ -57,12 +63,15 @@ body {
     justify-content: center;
     margin-top: 20px;
 }
+
 .menu-bottom a:nth-child(1) {
     margin-right: 16px;
 }
+
 .menu-bottom a:nth-child(2) {
     margin-right: 16px;
 }
+
 .menu-bottom a {
     display: flex;
     align-items: center;
@@ -75,6 +84,7 @@ body {
     font-size: 48px;
     color: var(--blanco);
 }
+
 .menu-bottom a:hover {
     background-color: var(--azul-medio);
 }
@@ -218,9 +228,7 @@ i {
     flex-shrink: 0;
 }
 
-.main-content {
-    
-}
+.main-content {}
 
 
 .content {
@@ -298,7 +306,7 @@ i {
 .card-title {
     margin-left: 20px;
     font-size: 18px;
-    color: var(--azul_oscurote);
+    color: var(--azul-oscuro-medio);
     margin-bottom: 6px;
     font-weight: 800;
 }
@@ -306,8 +314,33 @@ i {
 .card-subtitle {
     margin-left: 20px;
     font-size: 15px;
-    color: var(--azul_oscurote);
+    color: var(--azul-oscuro-medio);
     font-weight: 500;
+}
+
+.card.ultimo {
+    position: relative;
+    overflow: hidden;
+    /* importante para que no se salga */
+}
+
+.card.ultimo::before {
+    content: "Último video";
+    position: absolute;
+    top: 15px;
+    right: -80px;
+    padding: 6px 80px;
+
+    background: var(--rojo);
+    /* cámbialo a tu paleta */
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+
+    transform: rotate(45deg);
+    z-index: 10;
+
+    text-align:end;
 }
 
 /*.card-btn {
